@@ -13,11 +13,13 @@ html, body {
 	font-family: "Roboto", -apple-system, "San Francisco", "Segoe UI", "Helvetica Neue", sans-serif;
 	/* Define a reasonable base font size */
 	font-size: 12pt;
+	/* Define text color */
+	color: #fff;
 
 	/* Styles for better appearance on screens only -- are reset to defaults in print styles later */
 
 	/* Use a non-white background color to make the content areas stick out from the full page box */
-	background-color: #eee;
+	background-color: rgb(39, 39, 39);
 }
 /* Styles that are shared by all elements */
 * {
@@ -31,7 +33,7 @@ html, body {
 	/* Divide single pages with some space and center all pages horizontally */
 	margin: 1cm auto;
 	/* Define a white paper background that sticks out from the darker overall background */
-	background: #fff;
+	background: rgb(71, 71, 71);
 	/* Show a drop shadow beneath each page */
 	box-shadow: 0 4px 5px rgba(75, 75, 75, 0.2);
 	/* Override outline from user agent stylesheets */
